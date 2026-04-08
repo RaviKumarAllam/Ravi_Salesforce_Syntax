@@ -1,1 +1,20 @@
 //Aura Components
+Code -1 
+<aura:component controller="MyApexController" implements="flexipage:availableForAllPageTypes">
+
+    <!-- Attributes -->
+    <aura:attribute name="message" type="String" default="Hello World"/>
+    <aura:attribute name="count" type="Integer" default="0"/>
+
+    <!-- Event Handler (Init) -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <!-- UI -->
+    <lightning:card title="Aura Example">
+        <p>{!v.message}</p>
+        <p>Count: {!v.count}</p>
+
+        <lightning:button label="Increase" onclick="{!c.handleClick}"/>
+    </lightning:card>
+
+</aura:component>
