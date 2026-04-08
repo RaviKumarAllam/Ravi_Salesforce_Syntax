@@ -18,3 +18,10 @@ Code -1
     </lightning:card>
 
 </aura:component>
+
+Code -1 Usage
+aura:component → root tag
+controller → connects Apex class
+aura:attribute → variables (like state)
+{!v.attribute} → access attribute value
+{!c.method} → call JS controller method
