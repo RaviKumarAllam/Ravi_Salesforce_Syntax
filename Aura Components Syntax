@@ -25,3 +25,16 @@ controller → connects Apex class
 aura:attribute → variables (like state)
 {!v.attribute} → access attribute value
 {!c.method} → call JS controller method
+
+
+({
+    doInit : function(component, event, helper) {
+        console.log("Component Initialized");
+    },
+
+    handleClick : function(component, event, helper) {
+        var count = component.get("v.count");
+        count++;
+        component.set("v.count", count);
+    }
+})
