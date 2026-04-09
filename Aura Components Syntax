@@ -26,7 +26,7 @@ aura:attribute → variables (like state)
 {!v.attribute} → access attribute value
 {!c.method} → call JS controller method
 
-
+//Code 2 Controller JS (Client-side Controller) 
 ({
     doInit : function(component, event, helper) {
         console.log("Component Initialized");
