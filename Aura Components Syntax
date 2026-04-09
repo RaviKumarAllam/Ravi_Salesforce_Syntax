@@ -38,3 +38,8 @@ aura:attribute → variables (like state)
         component.set("v.count", count);
     }
 })
+Code-2 Usage
+Handles UI actions
+Uses:
+component.get() → read data
+component.set() → update data
