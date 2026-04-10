@@ -42,4 +42,4 @@ Code-2 Usage
 Handles UI actions
 Uses:
 component.get() → for read data
-component.set() → update data
+component.set() → for update data
