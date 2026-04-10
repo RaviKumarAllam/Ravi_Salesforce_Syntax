@@ -41,5 +41,5 @@ aura:attribute → variables (like state)
 Code-2 Usage
 Handles UI actions
 Uses:
-component.get() → read data
+component.get() → for read data
 component.set() → update data
