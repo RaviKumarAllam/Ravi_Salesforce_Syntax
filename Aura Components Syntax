@@ -50,6 +50,6 @@ component.set() → for update data
         console.log("Helper called");
     }
 })
-Code-3 Usage
+Code-3 Usage.
 Used for reusable logic
 Called from controller
