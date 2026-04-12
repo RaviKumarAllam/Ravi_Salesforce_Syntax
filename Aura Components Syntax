@@ -44,7 +44,7 @@ Uses:
 component.get() → for read data
 component.set() → for update data
 
-//3. Helper JS (Reusable logic)
+//3. Helper JS (Reusable logic).
 ({
     helperMethod : function(component) {
         console.log("Helper called");
