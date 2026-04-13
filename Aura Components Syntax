@@ -53,3 +53,12 @@ component.set() → for update data
 Code-3 Usage.
 Used for reusable logic
 Called from controller
+
+// Code 4. Apex Controller (Server-side)
+public with sharing class MyApexController {
+
+    @AuraEnabled
+    public static String getMessage() {
+        return 'Hello from Apex';
+    }
+}
