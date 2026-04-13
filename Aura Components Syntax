@@ -62,3 +62,8 @@ public with sharing class MyApexController {
         return 'Hello from Apex';
     }
 }
+
+Code -4 Usage
+
+@AuraEnabled → expose method to Aura
+Used for DB operations, logic
