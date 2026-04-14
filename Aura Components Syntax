@@ -67,3 +67,6 @@ Code -4 Usage
 
 @AuraEnabled → expose method to Aura
 Used for DB operations, logic
+
+Code 5 - Calling Apex from Aura
+Controller JS
