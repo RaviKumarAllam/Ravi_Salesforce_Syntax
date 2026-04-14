@@ -85,3 +85,4 @@ JavaScript
         $A.enqueueAction(action);
     }
 })
+Code - 5 Usage Flow
