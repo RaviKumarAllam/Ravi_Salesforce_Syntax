@@ -94,4 +94,5 @@ $A.enqueueAction()
 Component Event
 <aura:registerEvent name="myEvent" type="c:MyEvent"/>
 Handle Event
+<aura:handler event="c:MyEvent" action="{!c.handleEvent}"/>
 
