@@ -90,7 +90,7 @@ component.get("c.methodName")
 setCallback()
 $A.enqueueAction()
 
-6. Events in Aura
+Code - 6. Events in Aura
 Component Event
 <aura:registerEvent name="myEvent" type="c:MyEvent"/>
 Handle Event
