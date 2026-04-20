@@ -63,7 +63,7 @@ public with sharing class MyApexController {
     }
 }
 
-Code -4 Usage
+Code -4 Usage.
 
 @AuraEnabled → expose method to Aura
 Used for DB operations, logic
