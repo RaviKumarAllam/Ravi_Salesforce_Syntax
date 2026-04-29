@@ -85,7 +85,7 @@ JavaScript
         $A.enqueueAction(action);
     }
 })
-Code - 5 Usage Flow.
+Code - 5 Usage Flow in the below
 component.get("c.methodName")
 setCallback()
 $A.enqueueAction()
