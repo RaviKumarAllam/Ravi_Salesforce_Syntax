@@ -96,3 +96,5 @@ Component Event
 Handle Event
 <aura:handler event="c:MyEvent" action="{!c.handleEvent}"/>
 
+Code-7
+
